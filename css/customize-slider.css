@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.next-prev-controls  { overflow:hidden; }
+.next-prev-controls a { height:30px; width:30px; background:#CCC; display:block; }
+.next-prev-controls a.prev { float:left;  }
+.next-prev-controls a.next { float:right; margin-right:600px; background:#F00 }
+.custom-slider-h ul  { clear:both; overflow:hidden; }
+.custom-slider-h ul li { list-style:none;  }
+.custom-slider-h ol  { overflow:hidden; margin:10px 0px; padding:0px; clear:both;}
+.custom-slider-h ol li {margin-right:10px; float:left; list-style:none; background:#CCC; height:40px; width:40px; cursor:pointer; line-height:40px; text-align:center; }
+.custom-slider-h ol li.active { background:#333333; color:#FFF; }
+
